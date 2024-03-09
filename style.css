@@ -1,0 +1,98 @@
+.display {
+    border: 3px skyblue;
+}
+
+header {
+    font-size: 100px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 3px grey;
+    background-color: rgb(236, 147, 162);
+}
+
+nav {
+
+    border-radius: 20px;
+    text-align: center;
+    font-size: 90px;
+    color: aliceblue;
+    background-color: rgb(96, 226, 96);
+}
+
+aside {
+    margin-right: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: pink;
+}
+
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(160, 230, 233);
+    text-align: center;
+    color: rgb(224, 224, 235);
+    font-size: 20px;
+    width: 400px;
+}
+
+article {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: aquamarine;
+    background-color: rgb(72, 127, 175);
+}
+
+figure {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(238, 240, 156);
+    color: rgb(68, 68, 58);
+}
+
+p {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(245, 236, 110);
+    color: rgb(66, 65, 55);
+}
+
+section {
+    font-size: 35px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(35, 125, 199);
+    color: rgb(64, 20, 114);
+}
+
+footer {
+    font-style: italic;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(225, 84, 238);
+    border-radius: 20px;
+}
